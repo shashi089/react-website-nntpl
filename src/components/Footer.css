@@ -1,0 +1,9 @@
+.footer-container img {
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.footer-content {
+  padding: 10px 0;
+  background-color: black;
+}
