@@ -6,3 +6,8 @@
 .about p {
   padding: 10px 60px;
 }
+
+.about {
+  transition: all 0.5s;
+  transition-delay: 3s;
+}

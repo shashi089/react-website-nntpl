@@ -7,7 +7,7 @@ import mail from '../assests/mail.svg';
 
 const Contact = () => {
   return (
-    <div>
+    <div id='contact' className='mt-5'>
       <Container className='mt-5 mb-5'>
         <Row className='form-container'>
           <Col className='sub-container1 pt-5 pb-5'>
