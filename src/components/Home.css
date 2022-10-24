@@ -1,6 +1,7 @@
 .home_section {
-  background-image: url('../assests/bg1.jpg');
+  background-image: url('../assets/bg1.jpg');
   background-size: 100% 120%;
+  font-family: 'Poppins', sans-serif;
 }
 .header_height {
   height: 100vh;
@@ -8,32 +9,12 @@
 .headerColor {
   color: #ffffff;
 }
+.headerColor span {
+  color: red;
+}
 .sec_bg {
   background: rgba(0, 0, 0, 0.4);
 }
-
-.btn_custom {
-  background-color: #ff4c00;
-  color: #ffffff;
-  font-size: 0.95rem;
-  font-weight: 700;
-}
-.box_border {
-  border: solid 1px #ececec !important;
-}
-.icons {
-  width: 84px;
-  height: 84px;
-  clip-path: circle(40%);
-  text-align: center;
-  line-height: 84px;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  background: #ff4c00;
-  transform: translate(-50%, -50%);
-}
-.icons img {
-  color: #ffffff;
-  height: 40%;
+.title {
+  width: 400px;
 }

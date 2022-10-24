@@ -3,6 +3,10 @@
   color: #fff !important;
   font-weight: 600;
 }
+
+.nav-link:hover {
+  color: #ff6565 !important;
+}
 .navbar-brand {
   font-size: 1.5rem;
 }
@@ -23,4 +27,10 @@
 }
 .navbar-toggler {
   background-color: #fff !important;
+}
+
+@media screen and (max-width: 769px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
 }

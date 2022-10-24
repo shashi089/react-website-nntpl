@@ -1,0 +1,33 @@
+.topBrands .image {
+  height: 120px !important;
+  width: 90px !important;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.topBrands .sub-container:hover .image {
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.topBrands .sub-container:hover {
+  box-shadow: 1px 1px 5px red;
+}
+.topBrands {
+  font-family: 'Poppins', sans-serif;
+}
+.topBrands .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.topBrands .sub-container {
+  height: 200px !important;
+  width: 200px;
+  border-radius: 50% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d5d5d5;
+  margin-bottom: 10px;
+}

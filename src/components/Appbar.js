@@ -20,14 +20,13 @@ const Appbar = () => {
         className={colorChange ? 'navbar-colorChange' : 'navbar'}
       >
         <Container>
-          <Navbar.Brand href='#home'>NNTPL</Navbar.Brand>
+          <Navbar.Brand href='#home'>TIME</Navbar.Brand>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav className='ms-auto'>
               <Nav.Link href='#home'>Home</Nav.Link>
               <Nav.Link href='#aboutmain'>About</Nav.Link>
-              <Nav.Link href='#services'>Services</Nav.Link>
-              <Nav.Link href='#contact'>Carrers</Nav.Link>
+              <Nav.Link href='#products'>Products</Nav.Link>
               <Nav.Link href='#contact'>Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>

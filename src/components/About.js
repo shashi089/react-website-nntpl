@@ -1,31 +1,59 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import './About.css';
-import group from '../assests/group.jpg';
-import { CSSTransition } from 'react-transition-group';
+import square from '../assets/square.svg';
 
 const About = () => {
   return (
-    <div id='aboutmain' xyz='fade up'>
-      <CSSTransition apper={500}>
-        <Container>
-          <Row className='about'>
-            <Col className='about-image' lg='6' md='6' sm='6'>
-              <img src={group} alt='' />
-            </Col>
-            <Col className='about-text'>
-              <h4 className='text-center'>About Us</h4>
+    <div id='aboutmain' className='py-5'>
+      <div id='about'>
+        <div className='main-container py-5'>
+          <Container>
+            <h1 className='text-center'>
+              ABOUT
+              <span> US</span>
+            </h1>
+            <Row className='justify-content-center mt-5 about-info text-center'>
+              <Col lg='9' md='9'>
+                Founded in the year 2020 as a retail outlet in the city of alain
+                UAE, Time to remaind watches aims to provide its customers
+                watches with timeless designs and unparalleled customer service.
+                in a market field with imposters time to remaind watches stands
+                tall as an unimitable original player who ensures the best
+                quality watches and designs while providing world-class repair
+                services at the same time. a great team, an exclusive range of
+                elegant and world-class watch collections, we always stand
+                apart. Classical or modernist, we have a style that suits you.
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <Image className='image' src={square}></Image>
+      </div>
+      <div className='sub-container1 my-5 py-5'>
+        <Container className='d-flex justify-content-between'>
+          <div className='box-container-1'>
+            <h2 className='text-center text-white'>MISSION</h2>
 
-              <p className='pt-5'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Doloremque dignissimos accusantium hic saepe aut voluptates
-                pariatur. Itaque accusantium repellendus facilis sed architecto
-                quo officiis, dolore molestias ab illum ad recusandae.
-              </p>
-            </Col>
-          </Row>
+            <p>
+              Our mission is to ensure best qulity watches, Designs and repair
+              services for our customers all around the world. we want to be
+              known as a credible player who provides highest standards of
+              customer satisfaction every single time.
+            </p>
+          </div>
+          <div className='box-container-1'>
+            <h2 className='text-center text-white'>VISION</h2>
+
+            <p>
+              Our vision to launch outlets all over the UAE and world in coming
+              years. we want the world to wear our watches as a symbol of pride
+              and comfort. we want to grow as a global leader proving highest
+              standard of quality and design
+            </p>
+          </div>
         </Container>
-      </CSSTransition>
+      </div>
     </div>
   );
 };

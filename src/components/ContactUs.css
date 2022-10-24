@@ -1,0 +1,25 @@
+.box-container-2 .image {
+  height: 350px !important;
+  border-radius: 20px;
+}
+#contact {
+  background-color: #1e1e1e;
+}
+.main-title {
+  color: #ff2e2e;
+}
+.main-title span {
+  color: #ffffff;
+}
+
+.box-container-2 {
+  width: 500px !important;
+  color: #fff;
+}
+.image-container4 img {
+  height: 25px;
+}
+.info span {
+  color: #ff6565;
+  font-weight: 600;
+}

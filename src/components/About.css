@@ -1,13 +1,38 @@
-.about-image img {
-  height: 100%;
-  width: 100%;
-  border-radius: 8px;
+#about {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('../assets/bg2.jpg');
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  position: relative;
 }
-.about p {
-  padding: 10px 60px;
+#about .main-container {
+  background: rgba(0, 0, 0, 0.8);
+}
+#about .main-container h1 {
+  color: #ff2e2e;
+  font-size: 2.75rem;
+}
+#about .main-container span {
+  color: #fff;
+}
+.about-info {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 0.9rem;
+}
+#about .image {
+  transform: rotate(180deg);
 }
 
-.about {
-  transition: all 0.5s;
-  transition-delay: 3s;
+.sub-container1 {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ff6565;
+}
+.sub-container1 .image {
+  height: 100px;
+  width: 100px;
+  background: #fff !important;
+}
+.box-container-1 {
+  width: 500px !important;
 }

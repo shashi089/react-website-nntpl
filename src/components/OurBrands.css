@@ -1,0 +1,20 @@
+.carousel1 .brand-image {
+  height: 150px;
+  padding: 5px;
+  width: 70%;
+}
+.carousel1 .slick-arrow.slick-prev,
+.carousel1 .slick-arrow.slick-next {
+  display: none;
+}
+
+.image-container3 {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 5px !important;
+  width: 260px !important;
+
+  border-radius: 10px;
+}
