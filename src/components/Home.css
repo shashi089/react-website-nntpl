@@ -53,6 +53,9 @@
   .header_height {
     height: 65vh;
   }
+  .title {
+    width: 370px;
+  }
   .headerColor {
     font-size: 1.35rem;
   }
@@ -66,7 +69,7 @@
     font-size: 1.225rem;
   }
   .title {
-    width: 375px;
+    width: 350px;
   }
 }
 @media screen and (max-width: 326px) {
