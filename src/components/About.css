@@ -36,3 +36,21 @@
 .box-container-1 {
   width: 500px !important;
 }
+
+@media screen and (max-width: 769px) {
+  #about {
+    background-size: 100% 90%;
+  }
+  #about .image {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 426px) {
+  #about {
+    background-size: 100% 95%;
+  }
+
+  #about .image {
+    margin-top: 2px;
+  }
+}

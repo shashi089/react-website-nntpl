@@ -20,6 +20,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 .topBrands .sub-container {
   height: 200px !important;
@@ -30,4 +31,7 @@
   align-items: center;
   border: 1px solid #d5d5d5;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 769px) {
 }

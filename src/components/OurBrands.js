@@ -66,20 +66,53 @@ const OurBrands = () => {
       </div>
     );
   };
+  const carouselProperties = {
+    autoplay: true,
+    autoplaySpeed: 1000,
+    dots: false,
+    infinite: true,
+    slidesToShow: 4,
+    responsive: [
+      {
+        breakpoint: 326,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 376,
+        settings: {
+          slidesToShow: 1.25,
+        },
+      },
+      {
+        breakpoint: 426,
+        settings: {
+          slidesToShow: 1.45,
+        },
+      },
+      {
+        breakpoint: 769,
+        settings: {
+          slidesToShow: 2.5,
+        },
+      },
+      {
+        breakpoint: 1025,
+        settings: {
+          slidesToShow: 3.25,
+        },
+      },
+    ],
+    prevArrow: <PreviousBtn />,
+    nextArrow: <NextBtn />,
+  };
   return (
     <div className='brands mb-5'>
       <Container>
         <h1 className='text-center py-5 '>OUR BRANDS</h1>
         <div className='carousel1'>
-          <Slider
-            autoplay={true}
-            autoplaySpeed={1200}
-            dots={false}
-            infinite={true}
-            slidesToShow={4}
-            prevArrow={<PreviousBtn />}
-            nextArrow={<NextBtn />}
-          >
+          <Slider {...carouselProperties}>
             {images.map((val) => {
               return (
                 <div className='image-container3' key={val.id}>

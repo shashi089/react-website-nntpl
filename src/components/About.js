@@ -31,7 +31,7 @@ const About = () => {
         <Image className='image' src={square}></Image>
       </div>
       <div className='sub-container1 my-5 py-5'>
-        <Container className='d-flex justify-content-between'>
+        <Container className='d-flex justify-content-between flex-wrap'>
           <div className='box-container-1'>
             <h2 className='text-center text-white'>MISSION</h2>
 

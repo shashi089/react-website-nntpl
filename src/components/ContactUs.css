@@ -23,3 +23,21 @@
   color: #ff6565;
   font-weight: 600;
 }
+
+@media screen and (max-width: 769px) {
+  .box-container-2 .image {
+    height: 240px !important;
+  }
+  .box-container-2 {
+    width: 320px !important;
+  }
+}
+@media screen and (max-width: 426px) {
+  .box-container-2 .image {
+    height: 300px !important;
+  }
+  .box-container-2 {
+    width: 300px !important;
+    text-align: center;
+  }
+}

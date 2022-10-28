@@ -20,3 +20,20 @@
   top: 15%;
   width: 100%;
 }
+
+@media screen and (max-width: 769px) {
+  .footer-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 426px) {
+  .footer-container {
+    position: relative;
+  }
+  .footer-image {
+    position: absolute;
+    top: -37%;
+  }
+}

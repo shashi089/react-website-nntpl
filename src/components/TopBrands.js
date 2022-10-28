@@ -14,7 +14,7 @@ const TopBrands = () => {
     <div className='topBrands py-5'>
       <Container>
         <h2 className='py-5 text-center'>TOP BRANDS</h2>
-        <div className='d-flex justify-content-around align-items-center'>
+        <div className='d-flex justify-content-around align-items-center flex-wrap'>
           <div className='image-container'>
             <div className='sub-container'>
               <Image className='image' src={police}></Image>
