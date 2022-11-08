@@ -20,6 +20,12 @@
   top: 15%;
   width: 100%;
 }
+.address {
+  color: #fff;
+}
+.info {
+  margin: 12px 0px 0px 10px;
+}
 
 @media screen and (max-width: 769px) {
   .footer-container {

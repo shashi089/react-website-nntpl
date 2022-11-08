@@ -20,7 +20,9 @@ const Appbar = () => {
         className={colorChange ? 'navbar-colorChange' : 'navbar'}
       >
         <Container>
-          <Navbar.Brand href='#home'>TIME</Navbar.Brand>
+          <Navbar.Brand href='#home'>
+            TIME TO REMIND <span className='sub-title'>watches</span>{' '}
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav className='ms-auto'>

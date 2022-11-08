@@ -14,11 +14,12 @@
 }
 .topBrands {
   font-family: 'Poppins', sans-serif;
+  /* background-image: linear-gradient(to right, red, #ff6565); */
 }
 .topBrands .image-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center !important;
+  align-items: center !important;
   flex-direction: column;
   flex-wrap: wrap;
 }
@@ -29,8 +30,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #d5d5d5;
+  background-color: #fff;
   margin-bottom: 10px;
+  box-shadow: 2px 2px 5px #d5d5d5, -2px -2px 5px #d5d5d5;
 }
 
 @media screen and (max-width: 769px) {

@@ -18,10 +18,11 @@ function App() {
       <Appbar />
       <Home />
       <TopBrands />
-      <About />
+
       <OurBrands />
       <Products />
-      <ContactUs />
+      <About />
+      {/* <ContactUs /> */}
       <Footer />
     </div>
   );

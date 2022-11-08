@@ -14,8 +14,8 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: #1e1e1e;
-  box-shadow: 0px 0px 10px 10px rgba(212, 0, 255, 0.2);
+  background-color: #f83838;
+  box-shadow: 0px 0px 10px 10px rgba(255, 0, 191, 0.2);
 }
 
 .clock .hor,
@@ -28,7 +28,7 @@
 }
 
 .clock .hor .hr {
-  background-color: red;
+  background-color: #000000;
   position: absolute;
   height: 30px;
   width: 2px;
@@ -38,7 +38,7 @@
 }
 
 .clock .min .mn {
-  background-color: #ff6565;
+  background-color: #1e1e1e;
   position: absolute;
   height: 45px;
   width: 2px;
@@ -48,7 +48,7 @@
 }
 
 .clock .sec .sc {
-  background-color: #ff6565;
+  background-color: #1e1e1e;
   position: absolute;
   height: 60px;
   width: 2px;
