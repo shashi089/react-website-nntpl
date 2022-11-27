@@ -8,13 +8,14 @@ import waves from '../assets/waves.svg';
 import location from '../assets/location.svg';
 import phone from '../assets/phone.svg';
 import mail from '../assets/mail.svg';
+import logo from '../assets/blade/Timeslogo.jpeg';
 
 const Footer = () => {
   return (
     <div className='footer-main-container'>
       <Image className='footer-image' src={waves} alt='' />
       <div className='footer-container'>
-        <Container className='mt-4'>
+        <Container className='mt-2'>
           <Row className='justify-content-around'>
             <Col lg={2} md={2} sm={2}>
               <Clock />
@@ -54,8 +55,10 @@ const Footer = () => {
               </div>
             </Col>
           </Row>
-          <Row className='mt-3 address justify-content-between'>
-            <Col lg={3} md={3} sm={3}></Col>
+          <Row className='mt-3 address justify-content-start'>
+            <Col lg={3} md={3} sm={3}>
+              <Image className='logo-image' src={logo}></Image>
+            </Col>
             <Col lg={5} md={5} sm={5}>
               <Row className='pt-2'>
                 <Col lg='1' md='1' sm='1' className='image-container4'>

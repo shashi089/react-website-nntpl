@@ -7,6 +7,10 @@
   font-size: 1rem !important;
   color: #ff6565 !important;
 }
+.logo-image {
+  height: 90px;
+}
+
 .nav-link:hover {
   color: #ff6565 !important;
 }

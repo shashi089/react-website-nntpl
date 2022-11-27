@@ -26,6 +26,10 @@
 .info {
   margin: 12px 0px 0px 10px;
 }
+.address .logo-image {
+  height: 150px;
+  border-radius: 20px;
+}
 
 @media screen and (max-width: 769px) {
   .footer-container {

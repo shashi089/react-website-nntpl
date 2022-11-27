@@ -3,9 +3,8 @@
   box-sizing: border-box;
 }
 .header_height img {
-  object-fit: cover;
   object-fit: inherit;
-  height: 90vh;
+  height: 85vh;
   width: 90vw;
   overflow: hidden;
 }
