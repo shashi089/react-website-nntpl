@@ -1,17 +1,16 @@
-import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
-import './About.css';
-import square from '../assets/square.svg';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import "./About.css";
 
 const About = () => {
   return (
-    <div id='aboutmain' className='py-5'>
-      <div id='about'>
-        <div className=' py-5'>
+    <div id="aboutmain" className="py-5">
+      <div id="about">
+        <div className=" py-5">
           <Container>
-            <Row className='justify-content-between mt-5 about-info text-center'>
-              <Col lg='7' md='7' className='main-container py-5'>
-                <h1 className='text-center py-1'>
+            <Row className="justify-content-between mt-5 about-info text-center">
+              <Col lg="7" md="7" className="main-container py-5">
+                <h1 className="text-center py-1">
                   ABOUT
                   <span> US</span>
                 </h1>
@@ -25,9 +24,9 @@ const About = () => {
                 elegant and world-class watch collections, we always stand
                 apart. Classical or modernist, we have a style that suits you.
               </Col>
-              <Col lg='5' md='5'>
-                <div className='box-container py-3 px-3'>
-                  <h2 className='text-center '>MISSION</h2>
+              <Col lg="5" md="5">
+                <div className="box-container py-3 px-3">
+                  <h2 className="text-center ">MISSION</h2>
                   <p>
                     Our mission is to ensure best qulity watches, Designs and
                     repair services for our customers all around the world. we
@@ -35,8 +34,8 @@ const About = () => {
                     standards of customer satisfaction every single time.
                   </p>
                 </div>
-                <div className='box-container py-3 px-3 mt-3'>
-                  <h2 className='text-center'>VISION</h2>
+                <div className="box-container py-3 px-3 mt-3">
+                  <h2 className="text-center">VISION</h2>
                   <p>
                     Our vision to launch outlets all over the UAE and world in
                     coming years. we want the world to wear our watches as a
