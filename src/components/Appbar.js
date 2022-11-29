@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Container, Image, Nav, Navbar } from 'react-bootstrap';
 import './appbar.css';
-import logo from '../assets/blade/Timeslogo.jpeg';
+import logo from '../assets/blade/Timeslogo3.jpg';
+import logotext from '../assets/blade/Timeslogo4.jpg';
 
 const Appbar = () => {
   const [colorChange, setColorchange] = useState(false);
@@ -21,14 +22,12 @@ const Appbar = () => {
         className={colorChange ? 'navbar-colorChange' : 'navbar'}
       >
         <Container>
-          <Navbar.Brand href='#home'>
-            {colorChange ? (
-              <>
-                TIME TO REMIND <span className='sub-title'>watches</span>{' '}
-              </>
-            ) : (
-              <Image className='logo-image' src={logo}></Image>
-            )}
+          <Navbar.Brand
+            href='#home'
+            className='d-flex jastify-content-center align-items-center'
+          >
+            <Image className='logo-image' src={logo}></Image>
+            <Image className='logo-image-text' src={logotext}></Image>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>

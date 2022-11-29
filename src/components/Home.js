@@ -1,9 +1,11 @@
 import React from 'react';
 import './Home.css';
 import { Carousel } from 'react-bootstrap';
-import bg2 from '../assets/bg2.jpg';
-import bg3 from '../assets/bg3.jpg';
-import bg4 from '../assets/bg4.jpg';
+import bg2 from '../assets/Daniel Klien.jpg';
+import bg3 from '../assets/intro-banner.jpg';
+import bg4 from '../assets/leecooper.jpg';
+import bg1 from '../assets/products/LEECOPER BANNER.jpg';
+import bg5 from '../assets/bg4.jpg';
 
 const Home = () => {
   return (
@@ -12,7 +14,7 @@ const Home = () => {
         <div className='header_height'>
           <Carousel>
             <Carousel.Item>
-              <img className='d-block w-100' src={bg3} alt='' />
+              <img className='d-block w-100' src={bg1} alt='' />
               <Carousel.Caption>
                 <h1 className='headerColor '>
                   WELCOME TO THE WORLD OF <span>TIME TO REMIND WATCHES!</span>
@@ -20,7 +22,7 @@ const Home = () => {
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className='d-block w-100' src={bg2} alt='' />
+              <img className='d-block w-100' src={bg3} alt='' />
               <Carousel.Caption>
                 <h1 className='headerColor '>
                   WELCOME TO THE WORLD OF <span>TIME TO REMIND WATCHES!</span>
@@ -40,12 +42,8 @@ const Home = () => {
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className='d-block w-100' src={bg2} alt='' />
-              <Carousel.Caption>
-                <h1 className='headerColor '>
-                  WELCOME TO THE WORLD OF <span>TIME TO REMIND WATCHES!</span>
-                </h1>
-              </Carousel.Caption>
+              <img className='d-block w-100' src={bg5} alt='' />
+              <Carousel.Caption></Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>

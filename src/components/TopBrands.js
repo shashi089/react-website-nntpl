@@ -1,80 +1,59 @@
-import React from "react";
-import { Container, Image } from "react-bootstrap";
-import {
-  police,
-  leecooper,
-  uspolo,
-  blade,
-  imperial,
-} from "../assets/TopBrands";
-import "./topbrands.css";
-import "./OurBrands.css";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import { ArrowRight, ArrowLeft } from "react-bootstrap-icons";
+import React from 'react';
+import { Container, Image } from 'react-bootstrap';
+import { police, leecooper, uspolo, imperial } from '../assets/TopBrands';
+import blade from '../assets/products/BLADE.webp';
 
-import watch9 from "../assets/casio/edifice-ed475-efs-s550db-1avudf-edifice.webp";
-import watch10 from "../assets/sveston/SV-7425_Cam001M4_1b543194-8186-479c-ba1a-ec67e04c8517_600x.webp";
+import './topbrands.css';
+import './OurBrands.css';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import { ArrowRight, ArrowLeft } from 'react-bootstrap-icons';
 
 const TopBrands = () => {
   const images = [
     {
       id: 1,
-      image: uspolo,
-      name: "U. S. Polo",
+      image: police,
+      name: 'Police',
     },
     {
       id: 2,
-      image: police,
-      name: "Police",
+      image: imperial,
+      name: 'Imperial',
     },
     {
       id: 3,
-      image: leecooper,
-      name: "Lee Cooper",
+      image: blade,
+      name: 'Blade',
     },
     {
       id: 4,
-      image: blade,
-      name: "Blade",
+      image: leecooper,
+      name: 'Lee Cooper',
     },
     {
       id: 5,
-      image: watch10,
-      name: "Sweston",
+      image: imperial,
+      name: 'Elize',
     },
     {
       id: 6,
-      image: watch9,
-      name: "Casio",
+      image: uspolo,
+      name: 'U. S. Polo',
     },
+
     {
       id: 7,
-      image: imperial,
-      name: "Imperial",
-    },
-    {
-      id: 8,
       image: leecooper,
-      name: "Lee Cooper",
-    },
-    {
-      id: 9,
-      image: police,
-      name: "Police",
-    },
-    {
-      id: 10,
-      image: uspolo,
-      name: "U. S. Polo",
+      name: 'Kenneth Scott',
     },
   ];
   const PreviousBtn = (props) => {
     const { className, onClick } = props;
     return (
       <div className={className} onClick={onClick}>
-        <ArrowLeft style={{ color: "#ff6565", fontSize: "25px" }} />
+        <ArrowLeft style={{ color: '#ff6565', fontSize: '25px' }} />
       </div>
     );
   };
@@ -82,7 +61,7 @@ const TopBrands = () => {
     const { className, onClick } = props;
     return (
       <div className={className} onClick={onClick}>
-        <ArrowRight style={{ color: "#ff6565", fontSize: "25px" }} />
+        <ArrowRight style={{ color: '#ff6565', fontSize: '25px' }} />
       </div>
     );
   };
@@ -128,19 +107,19 @@ const TopBrands = () => {
     nextArrow: <NextBtn />,
   };
   return (
-    <div className="topBrands py-5">
-      <Container className="pt-3">
-        <h2 className="py-5 text-center ">TOP BRANDS</h2>
-        <div className="carousel">
+    <div className='topBrands py-5'>
+      <Container className='pt-3'>
+        <h2 className='py-5 text-center '>TOP BRANDS</h2>
+        <div className='carousel'>
           <Slider {...carouselProperties}>
             {images.map((val) => {
               return (
                 <div
-                  className="image-container mt-1 text-center d-flex justify-content-around align-items-center"
+                  className='image-container mt-1 text-center d-flex justify-content-around align-items-center'
                   key={val.id}
                 >
-                  <div className="sub-container">
-                    <Image className="image" src={val.image} alt="" />
+                  <div className='sub-container'>
+                    <Image className='image' src={val.image} alt='' />
                   </div>
                   <h6>{val.name}</h6>
                 </div>
