@@ -9,6 +9,7 @@ import location from '../assets/location.svg';
 import phone from '../assets/phone.svg';
 import mail from '../assets/mail.svg';
 import logo from '../assets/blade/Timeslogo.jpeg';
+import qrcode from '../assets/qrcode.png';
 
 const Footer = () => {
   return (
@@ -64,7 +65,7 @@ const Footer = () => {
                 <Col lg='1' md='1' sm='1' className='image-container4'>
                   <img src={location} alt='' />
                 </Col>
-                <Col className='info'>
+                <Col className='info' lg='9' md='9' sm='9'>
                   <div>
                     <span> LULU HYPERMART</span> Sanay, AL ain, UAE. <br></br>{' '}
                     <span>LULU HYPERMART </span> Al Kuwaitat AL ain, UAE.
@@ -87,6 +88,9 @@ const Footer = () => {
                   <div>timetoremindwatches2020@gmail.com</div>
                 </Col>
               </Row>
+            </Col>
+            <Col lg='2' md='2' sm='2' className='qr-container'>
+              <img className='image' src={qrcode} alt='' />
             </Col>
           </Row>
         </Container>

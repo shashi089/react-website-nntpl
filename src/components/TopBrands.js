@@ -1,6 +1,12 @@
 import React from 'react';
 import { Container, Image } from 'react-bootstrap';
-import { police, leecooper, uspolo, imperial } from '../assets/TopBrands';
+import {
+  police,
+  leecooper,
+  uspolo,
+  imperial,
+  kennethCole,
+} from '../assets/TopBrands';
 import blade from '../assets/products/BLADE.webp';
 
 import './topbrands.css';
@@ -45,8 +51,8 @@ const TopBrands = () => {
 
     {
       id: 7,
-      image: leecooper,
-      name: 'Kenneth Scott',
+      image: kennethCole,
+      name: 'Kenneth Cole',
     },
   ];
   const PreviousBtn = (props) => {

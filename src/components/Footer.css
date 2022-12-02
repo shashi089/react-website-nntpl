@@ -30,7 +30,10 @@
   height: 150px;
   border-radius: 20px;
 }
-
+.qr-container .image {
+  height: 150px !important;
+  width: 150px;
+}
 @media screen and (max-width: 769px) {
   .footer-container {
     position: absolute;
