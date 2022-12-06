@@ -1,0 +1,12 @@
+export { default as omax } from './OMAX.png';
+export { default as uspolo } from './POLO.jpg';
+export { default as seiko } from './SEIKO.jpg';
+export { default as spectrum } from './SPECTRUM.jpg';
+export { default as naviforce } from './NAVIFORCE.jpeg';
+export { default as titan } from './TITAN.jpeg';
+export { default as citizen } from './CITIZEN.jpg';
+export { default as cruiser } from './CRUISER.jpg';
+export { default as fastrack } from './FAST TRACK.jpg';
+export { default as fitron } from './FITRON.jpg';
+export { default as danielklein } from './DANIEL KLEIN.jpg';
+export { default as blade } from './Blade.jpg';

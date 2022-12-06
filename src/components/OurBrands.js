@@ -3,14 +3,16 @@ import './OurBrands.css';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import watch1 from '../assets/logo/Casio.png';
-import watch2 from '../assets/logo/Daniel Klein.png';
-import watch3 from '../assets/logo/Fitron.jpg';
-import watch4 from '../assets/logo/Imperial.png';
-import watch5 from '../assets/logo/Lee-Cooper.png';
-import watch6 from '../assets/logo/Naviforce.png';
-import watch7 from '../assets/logo/Police.svg';
-import watch8 from '../assets/logo/U-S-Polo.png';
+import {
+  Casio,
+  DaneilKlien,
+  police,
+  uspolo,
+  leecooper,
+  imperial,
+  fitron,
+  naviforce,
+} from '../assets/logo';
 import { Container, Image } from 'react-bootstrap';
 import { ArrowRight, ArrowLeft } from 'react-bootstrap-icons';
 
@@ -18,36 +20,36 @@ const OurBrands = () => {
   const images = [
     {
       id: 1,
-      image: watch1,
+      image: Casio,
     },
     {
       id: 2,
-      image: watch6,
+      image: naviforce,
     },
     {
       id: 3,
-      image: watch8,
+      image: uspolo,
     },
 
     {
       id: 4,
-      image: watch7,
+      image: police,
     },
     {
       id: 5,
-      image: watch4,
+      image: imperial,
     },
     {
       id: 6,
-      image: watch5,
+      image: leecooper,
     },
     {
       id: 7,
-      image: watch2,
+      image: DaneilKlien,
     },
     {
       id: 8,
-      image: watch3,
+      image: fitron,
     },
   ];
   const PreviousBtn = (props) => {

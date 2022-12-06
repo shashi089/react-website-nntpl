@@ -5,9 +5,10 @@ import {
   leecooper,
   uspolo,
   imperial,
-  kennethCole,
+  kennethScott,
+  blade,
+  eliz,
 } from '../assets/TopBrands';
-import blade from '../assets/products/BLADE.webp';
 
 import './topbrands.css';
 import './OurBrands.css';
@@ -28,31 +29,31 @@ const TopBrands = () => {
       image: imperial,
       name: 'Imperial',
     },
+
     {
       id: 3,
-      image: blade,
-      name: 'Blade',
-    },
-    {
-      id: 4,
       image: leecooper,
       name: 'Lee Cooper',
     },
     {
-      id: 5,
-      image: imperial,
+      id: 4,
+      image: eliz,
       name: 'Elize',
     },
     {
-      id: 6,
+      id: 5,
       image: uspolo,
       name: 'U. S. Polo',
     },
-
+    {
+      id: 6,
+      image: blade,
+      name: 'Blade',
+    },
     {
       id: 7,
-      image: kennethCole,
-      name: 'Kenneth Cole',
+      image: kennethScott,
+      name: 'Kenneth Scott',
     },
   ];
   const PreviousBtn = (props) => {
@@ -87,7 +88,7 @@ const TopBrands = () => {
       {
         breakpoint: 376,
         settings: {
-          slidesToShow: 1.25,
+          slidesToShow: 1,
         },
       },
       {

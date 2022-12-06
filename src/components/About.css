@@ -77,4 +77,7 @@
   #about .image {
     margin-top: 0px;
   }
+  #about .main-container {
+    margin-bottom: 10px;
+  }
 }

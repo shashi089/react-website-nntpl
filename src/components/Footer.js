@@ -13,15 +13,15 @@ import qrcode from '../assets/qrcode.png';
 
 const Footer = () => {
   return (
-    <div className='footer-main-container'>
+    <div className='footer-main-container' id='contact'>
       <Image className='footer-image' src={waves} alt='' />
       <div className='footer-container'>
         <Container className='mt-2'>
           <Row className='justify-content-around'>
-            <Col lg={2} md={2} sm={2}>
+            <Col lg={2} md={3} sm={3}>
               <Clock />
             </Col>
-            <Col lg={3} md={3} sm={3}>
+            <Col lg={3} md={3} sm={6}>
               <h5 className='footerHeading'>Useful Links</h5>
               <div className='footerParagraph'>Home</div>
               <div className='footerParagraph'>About</div>
@@ -60,7 +60,7 @@ const Footer = () => {
             <Col lg={3} md={3} sm={3}>
               <Image className='logo-image' src={logo}></Image>
             </Col>
-            <Col lg={5} md={5} sm={5}>
+            <Col lg={5} md={6} sm={5}>
               <Row className='pt-2'>
                 <Col lg='1' md='1' sm='1' className='image-container4'>
                   <img src={location} alt='' />
@@ -76,7 +76,7 @@ const Footer = () => {
                 <Col lg='1' md='1' sm='1' className='image-container4'>
                   <img src={phone} alt='' />
                 </Col>
-                <Col cols='10' lg='10' md='10' sm='10' className='info'>
+                <Col cols='10' lg='10' md='10' sm='9' className='info'>
                   <div>9090909090</div>
                 </Col>
               </Row>
@@ -84,7 +84,7 @@ const Footer = () => {
                 <Col lg='1' md='1' className='image-container4'>
                   <img src={mail} alt='' />
                 </Col>
-                <Col className='info'>
+                <Col className='info' md='9'>
                   <div>timetoremindwatches2020@gmail.com</div>
                 </Col>
               </Row>

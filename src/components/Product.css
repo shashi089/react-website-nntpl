@@ -41,6 +41,7 @@
   justify-content: center !important;
   margin: 5px !important;
   width: 260px !important;
+  height: 350px !important;
   box-shadow: 0 0 10px 0 rgb(0 0 0 / 11%);
   border-radius: 10px;
 }

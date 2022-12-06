@@ -21,6 +21,13 @@
 .title {
   width: 400px;
 }
+.carousel2 .brand-image {
+  width: 100%;
+}
+.carousel2 .slick-arrow.slick-prev,
+.carousel2 .slick-arrow.slick-next {
+  display: none;
+}
 
 @media screen and (max-width: 1025px) {
   .home_section {
@@ -37,27 +44,19 @@
   .header_height {
     height: 85vh;
   }
+  .carousel2 .brand-image {
+    height: 70vh;
+  }
 }
 @media screen and (max-width: 426px) {
   .home_section {
     background-size: 100% 80%;
-  }
-  .header_height {
-    height: 75vh;
   }
   .headerColor {
     font-size: 1.6rem;
   }
-}
-@media screen and (max-width: 426px) {
-  .home_section {
-    background-size: 100% 80%;
-  }
-  .header_height {
-    height: 65vh;
-  }
-  .headerColor {
-    font-size: 1.35rem;
+  .carousel2 .brand-image {
+    height: 50vh;
   }
 }
 
@@ -71,6 +70,9 @@
   .title {
     width: 375px;
   }
+  .carousel2 .brand-image {
+    height: 40vh;
+  }
 }
 @media screen and (max-width: 326px) {
   .header_height {
@@ -82,5 +84,8 @@
   }
   .title {
     width: 320px;
+  }
+  .carousel2 .brand-image {
+    height: 35vh;
   }
 }
