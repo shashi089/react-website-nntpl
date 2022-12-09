@@ -21,6 +21,7 @@ import {
   danielklein,
   titan,
   blade,
+  fossil,
 } from '../assets/products';
 
 import { Container, Image } from 'react-bootstrap';
@@ -87,9 +88,10 @@ const Products = () => {
     },
     {
       id: 12,
-      image: naviforce,
-      name: 'Naviforce',
+      image: fossil,
+      name: 'Fossil',
     },
+
     {
       id: 13,
       image: seiko,
@@ -105,6 +107,11 @@ const Products = () => {
       id: 15,
       image: watch9,
       name: 'Casio',
+    },
+    {
+      id: 16,
+      image: naviforce,
+      name: 'Naviforce',
     },
   ];
   const PreviousBtn = (props) => {

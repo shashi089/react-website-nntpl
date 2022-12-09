@@ -18,3 +18,22 @@
 
   border-radius: 10px;
 }
+
+@media screen and (max-width: 769px) {
+  .carousel1 .brand-image {
+    height: 140px;
+    padding: 5px;
+    width: 65%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .carousel1 .brand-image {
+    height: 130px;
+    padding: 5px;
+    width: 65%;
+  }
+  .image-container3 {
+    margin: 2px !important;
+    width: 350px !important;
+  }
+}

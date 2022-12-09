@@ -10,3 +10,4 @@ export { default as fastrack } from './FAST TRACK.jpg';
 export { default as fitron } from './FITRON.jpg';
 export { default as danielklein } from './DANIEL KLEIN.jpg';
 export { default as blade } from './Blade.jpg';
+export { default as fossil } from './FOSSIL.jpeg';

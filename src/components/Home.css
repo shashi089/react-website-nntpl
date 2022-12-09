@@ -2,10 +2,11 @@
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
+
 .header_height img {
   margin-top: 90px;
   object-fit: inherit;
-  height: 80vh;
+  height: 75vh;
   width: fit-content;
   overflow: hidden;
 }
