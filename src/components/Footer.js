@@ -77,7 +77,7 @@ const Footer = () => {
                   <img src={phone} alt='' />
                 </Col>
                 <Col cols='10' lg='10' md='10' sm='9' className='info'>
-                  <div>9090909090</div>
+                  <div>+971 588697993</div>
                 </Col>
               </Row>
               <Row className='pt-2'>
