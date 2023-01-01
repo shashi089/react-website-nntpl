@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 // import { Carousel } from 'react-bootstrap';
-import bg2 from '../assets/Daniel Klien.jpg';
+import bg2 from '../assets/bg6.jpeg';
 import bg3 from '../assets/intro-banner.jpg';
 import bg4 from '../assets/leecooper.jpg';
 import bg1 from '../assets/products/LEECOPER BANNER.jpg';
